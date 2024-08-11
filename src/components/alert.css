@@ -1,0 +1,10 @@
+.alert-size {
+    width: 180px;
+    height: 75px;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
