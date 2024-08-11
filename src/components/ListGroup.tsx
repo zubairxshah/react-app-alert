@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Fragment } from "react/jsx-runtime";
+//import { Fragment } from "react/jsx-runtime";
 
 interface Props {
   items: string[];
@@ -7,7 +7,6 @@ interface Props {
   onSelectItem: (item: string) => void;
 }
 
-let selectedIndex = 0;
 function ListGroup({ items, heading, onSelectItem }: Props) {
   const [selectedIndex, setSelectedIndex] = useState(-1);
   return (
